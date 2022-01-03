@@ -1,4 +1,5 @@
 const assert = require("assert");
+const { test } = require("./test-util");
 
 module.exports = (eva) => {
   assert.strictEqual(
@@ -45,5 +46,15 @@ module.exports = (eva) => {
       "data",
     ]),
     100
+  );
+  test(
+    eva,
+    `
+      (begin 
+        (var x 10)
+        (var y 20)
+        (+ (* x 10) y))
+  `,
+    120
   );
 };
