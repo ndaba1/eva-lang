@@ -1,0 +1,24 @@
+{
+  "name": "Eva",
+  "version": "1.0.0",
+  "description": "The main test suite can be run by:\r `node __tests__/main.js`",
+  "main": "Eva.js",
+  "dependencies": {
+    "syntax-cli": "^0.1.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndaba1/eva-lang.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndaba1/eva-lang/issues"
+  },
+  "homepage": "https://github.com/ndaba1/eva-lang#readme"
+}
